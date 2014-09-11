@@ -14,6 +14,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: #ccc;
 }
 
 *, *:before, *:after {
@@ -28,4 +29,71 @@ body {
 img {
   display: block;
   width: 100%;
+}
+
+.img-flex {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.transbox{
+  font-family: Times New Roman;
+  background-color: #000;
+  position: absolute;
+  top: 205px;
+  left: 0;
+  color: white;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  }
+
+.info {
+  background-color: white;
+  border-radius: 0px 0px 7px 7px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.bold-title {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.box1, .box2, .box3 {
+  width: 30%;
+  float: left;
+}
+
+.small-title {
+  text-transform: uppercase;
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 0.25rem;
+  margin-top: 0;
+}
+
+.box1, .box2, .box3 p {
+  margin: 0;
+}
+
+.box2, .box3 {
+  border-left: solid 1px #ccc;
+  padding-left: 3%;
+}
+
+.box1 p, .box2 p, .box3 p{
+  margin: 0;
 }
